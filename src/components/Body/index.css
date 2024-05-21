@@ -1,0 +1,153 @@
+/* Write your CSS here */
+.leftNavbarContainer {
+  background-color: #e2e8f0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.leftNavbarHeading {
+  color: #475569;
+  font-family: roboto;
+  font-size: 20px;
+}
+
+.leftNavbarUl {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-left: 0px;
+  flex-wrap: wrap;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.leftNavbarLi {
+  font-family: roboto;
+  font-size: 22px;
+  color: #64748b;
+  padding: 20px;
+  font-weight: 500;
+}
+
+.contentContainer {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #f1f5f9;
+  margin-top: 8px;
+}
+
+.contentHeading {
+  color: #475569;
+  font-family: roboto;
+  font-size: 20px;
+  margin: 0px;
+  margin-top: 20px;
+}
+
+.contentPara {
+  font-family: roboto;
+  font-size: 22px;
+  color: #64748b;
+  padding: 20px;
+  font-weight: 500;
+  margin: 0px;
+}
+
+.rightNavbarContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  background-color: #e2e8f0;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.rightNavbarHeading {
+  color: #475569;
+  font-family: roboto;
+  font-size: 20px;
+  margin: 0px;
+  margin-top: 20px;
+}
+
+.rightNavbarContent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.rightNavbarBox {
+  height: 150px;
+  width: 100px;
+  border: 1px solid #64748b;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: roboto;
+  font-size: 22px;
+  color: #64748b;
+  font-weight: 500;
+}
+
+@media (min-width: 768px) {
+  .bodyContainer {
+    display: flex;
+    flex-direction: row;
+    min-height: 500px;
+    min-width: 100%;
+    justify-content: space-between;
+  }
+
+  .contentContainer {
+    margin-bottom: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: start;
+  }
+
+  .contentPara {
+    margin-left: 0px;
+    padding-left: 0px;
+  }
+
+  .leftNavbarContainer {
+    min-width: 20%;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-right: 5px;
+    justify-content: flex-start;
+  }
+
+  .rightNavbarContainer {
+    min-width: 20%;
+    margin-left: 5px;
+    padding-top: 0px;
+    justify-content: flex-start;
+  }
+
+  .rightNavbarContent {
+    flex-direction: column;
+  }
+
+  .leftNavbarUl {
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: start;
+    width: 100%;
+  }
+}
